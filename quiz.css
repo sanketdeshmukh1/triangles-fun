@@ -1,6 +1,75 @@
-<nav class="navbar">
-<a class="nav-option active" href="index.html">Is-Triangle</a>
-<a class="nav-option"href="/">quiz</a>
-<a class="nav-option"href="/">Hypotenous</a>
 
-</nav>
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Dosis:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    background-color:#164e63;
+    padding: 1rem;
+border-bottom-right-radius: 2rem;
+border-bottom-left-radius:2rem ;
+}
+
+
+.nav-option{
+    color: white;
+padding: 0rem 1rem ;
+text-decoration: none;
+}
+
+
+.active{
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+body{
+    background-color: #fca5a5;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Dosis', sans-serif;
+    }
+
+    .Quiz{
+        text-align: center;
+        padding: 2rem 0rem;
+    }
+
+    .form-class{
+        text-align: center;
+    }
+.q1,.q2{
+    padding: 2rem 0rem;
+    font-size: larger;
+}
+
+.op1{
+    margin: 0rem 1rem;
+}
+
+.btn{
+    margin-top: 2rem;
+    text-align: center;
+}
+.submit-class{
+
+        color: white;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        background-color: #164e63;
+        width: 6rem;
+    
+    }
+    
+    .answer{
+        color: #164e63;
+        padding-top: 2rem;
+        text-align: center;
+        font-size: larger;
+        font-weight: bolder;
+    }

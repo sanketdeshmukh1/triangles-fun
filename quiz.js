@@ -17,6 +17,6 @@ function validatescore() {
 
         index++;
     } //for
- ans.innerText="Your score is "+score;
-
+    ans.innerText="Your score is "+score;
+    
 }
