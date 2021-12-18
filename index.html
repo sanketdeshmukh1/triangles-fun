@@ -8,21 +8,35 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h2 class="heading">Is Triangle?</h2>
+    <div class="container">
+    <nav class="navbar">
+        <a class="nav-option active" href="index.html">Is-Triangle</a>
+        <a class="nav-option"href="/">quiz</a>
+        <a class="nav-option"href="/">Hypotenous</a>
 
-    <label for="angle1">Angle-1</label>
-    <input type="number" class="angles-class">
-    
-    <label for="angle2">Angle-2</label>
-    <input type="number" class="angles-class">
-    
-    <label for="angle3">Angle-3</label>
-    <input type="number" class="angles-class">
+    </nav>
 
 
+    <h1 class="heading">Is Triangle?</h1>
+<div class="grp1">
+    <label for="angle">Angle-1</label>
+    <input placeholder="Enter value of angle-1" type="number" class="angles-class">
+</div>
+<div class="grp2">
+    <label for="angle">Angle-2</label>
+    <input placeholder="Enter value of angle-2" type="number" class="angles-class">
+</div>
+<div class="grp3">
+<label for="angle">Angle-3</label>
+    <input placeholder="Enter value of angle-3" type="number" class="angles-class">
+</div>
+<div class="btn">
     <button class="submit-button">Submit</button>
+</div>
     <div class="answer"></div>
 
     <script src="app.js"></script>
+</div>
+
 </body>
 </html>
