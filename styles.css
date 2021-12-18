@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Dosis:wght@300&display=swap');
 
 *{
@@ -51,7 +53,6 @@ text-align: center;
 .answer{
     padding: 2rem;
     font-weight: bold;
-
     text-align: center;
 }
 .active{
