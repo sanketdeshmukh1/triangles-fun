@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Dosis:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    background-color:#164e63;
+    padding: 1rem;
+border-bottom-right-radius: 2rem;
+border-bottom-left-radius:2rem ;
+}
+
+
+.nav-option{
+    color: white;
+padding: 0rem 1rem ;
+text-decoration: none;
+}
+
+
+.active{
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+body{
+    background-color: #fca5a5;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Dosis', sans-serif;
+    }
+
+.heading{
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.container{
+    text-align: center;
+
+}
+
+label{
+    display: block;
+}
+.submit-button{
+    margin: auto;
+    display: block;
+   width: 6rem;
+   height: 2rem;
+   border-radius: 0.5rem;
+   color: white;
+   background-color: #164e63;
+}
+input{
+    margin: 1rem 0rem;
+}
+.answer{
+    padding-top: 2rem;
+    color: #164e63;
+    font-size: larger;
+    font-weight: bolder;
+}
